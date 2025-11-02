@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './App.css'
+import './index.css'
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000'
 
