@@ -106,4 +106,3 @@ jobs:
       run: |
         echo "Backend URL: $(gcloud run services describe recipe-backend --region=${{ secrets.GCP_REGION }} --format='value(status.url)')"
         echo "Frontend URL: $(gcloud run services describe recipe-frontend --region=${{ secrets.GCP_REGION }} --format='value(status.url)')"
-      feat: add CI/CD pipeline
